@@ -1,10 +1,11 @@
  [
   {
     "id": 1,
-    "title": "C is a versatile, efficient programming language used for system development, embedded systems, and applications across various domains.",
+    "title": "Introduction to C Programming",
+    "description": "C is a versatile, efficient programming language used for system development, embedded systems, and applications across various domains.",
     "price": 15000,
     "credit": 1,
-    "img": "https://ibb.co/zsgFjKv"
+    "img": "https://i.ibb.co/CBy6NxG/rectangle2-2.png"
   },
   {
     "id": 2,
@@ -12,7 +13,7 @@
     "description": "An algorithm is a step-by-step procedure or set of rules for solving problems, performing tasks, or making decisions in computer science.",
     "price": 25000,
     "credit": 2,
-    "img": "https://ibb.co/0ffm09s"
+    "img": "https://i.ibb.co/Cnnmj9P/rectangle2-3.png"
   },
   {
     "id": 3,
@@ -20,7 +21,7 @@
     "description": "Learn object-oriented programming, data structures, and algorithms using C++ for efficient problem-solving and software development.",
     "price": 10000,
     "credit": 10,
-    "img": "https://ibb.co/DD7MnWk"
+    "img": "https://i.ibb.co/FbBYt3J/rectangle2-4.png"
   },
   {
     "id": 4,
@@ -28,7 +29,7 @@
     "description": "Fundamental components in computer science, including arrays, linked lists, stacks, and queues, used to organize and manage data.",
     "price": 35000,
     "credit": 5,
-    "img": "https://ibb.co/2qY1tsm"
+    "img": "https://i.ibb.co/v1v6PQg/rectangle3.png"
   },
   {
     "id": 5,
@@ -36,7 +37,7 @@
     "description": "Explore object-oriented programming concepts, classes, inheritance, and polymorphism for building modular, reusable, and efficient Python applications.",
     "price": 19000,
     "credit": 5,
-    "img": "https://ibb.co/9cnr6Pp"
+    "img": "https://i.ibb.co/S5N3bS6/rectangle2.png"
   },
   {
     "id": 6,
@@ -44,7 +45,7 @@
     "description": "The systematic design, development, and maintenance of software solutions, using principles, processes, and tools to meet user needs effectively.",
     "price": 23000,
     "credit": 2,
-    "img": "https://ibb.co/zN5jZQv"
+    "img": "https://i.ibb.co/CWtNQmG/rectangle2-5.png"
   },
   {
     "id": 7,
@@ -52,7 +53,7 @@
     "description": "Amazon Web Services offers scalable, on-demand cloud resources, enabling businesses to deploy, manage, and scale applications efficiently.",
     "price": 35000,
     "credit": 5,
-    "img": "https://ibb.co/4ZccNYP"
+    "img": "https://i.ibb.co/PZRRC9w/rectangle3-1.png"
   },
   {
     "id": 8,
@@ -60,7 +61,7 @@
     "description": "MySQL is a popular open-source relational database management system, known for its speed, reliability, and ease of use in web applications.",
     "price": 19000,
     "credit": 5,
-    "img": "https://ibb.co/23FvzY7"
+    "img": "https://i.ibb.co/hFgBG1R/rectangle2-1.png"
   },
   {
     "id": 9,
@@ -68,6 +69,6 @@
     "description": "Applying logical thinking and coding skills to solve complex problems efficiently through algorithmic and creative approaches.",
     "price": 23000,
     "credit": 2,
-    "img": "https://ibb.co/rwmypwq"
+    "img": "https://i.ibb.co/XCbJ5C6/rectangle2-6.png"
   }
 ]

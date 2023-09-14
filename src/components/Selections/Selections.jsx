@@ -1,7 +1,7 @@
 const Selections = () => {
     return (
-        <div>
-            
+        <div className="w-1/4">
+            selection
         </div>
     );
 };

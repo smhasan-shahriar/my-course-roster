@@ -1,16 +1,33 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
+import Header from './components/Header/Header'
+import Courses from './components/Courses/Courses'
+import Selections from './components/Selections/Selections'
+import { useEffect, useState } from 'react';
 
 function App() {
-  const [count, setCount] = useState(0)
+
+  const [courses, setCourses] = useState([]);
+
+  useEffect(()=> {
+    const url = 'course-details.json';
+    fetch(url)
+    .then(response => response.json())
+    .then(data=> setCourses(data))
+  }, [])
+
 
   return (
-    <>
-       <h1>Vite + React</h1>
-      
-    </>
+    <div className='max-w-[1440px]'>
+        <Header></Header>
+        <main className='flex justify-between'>
+          <Courses courses={courses}></Courses>
+          <Selections></Selections>
+        </main>
+
+
+    </div>
+       
+
   )
 }
 
