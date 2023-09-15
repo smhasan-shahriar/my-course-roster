@@ -4,7 +4,7 @@ import 'react-toastify/dist/ReactToastify.css';
 
 
 const Course = ({course, handleSelect}) => {
-    const {id, title, description, price, credit, img} = course;
+    const {title, description, price, credit, img} = course;
     return (
         <div className='p-4 bg-white w-[312px] h-[402px] rounded-xl'>
             <img className='mb-4 w-[280px] h-[144px]' src={img} alt="" />
