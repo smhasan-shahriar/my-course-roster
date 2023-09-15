@@ -14,5 +14,5 @@
 - “courses” State: This state has been used to store the data of all the courses offered. “setCourses” function has been utilized to store the fetched course data in “courses”.
 - “selects” State: This state has been used to store the data of the courses the users selected through using the “Select” button in “Course.jsx” component. As the user clicks the button the ‘handleSelect’ functions checks if the course already exists. If the course hasn’t been added to the selects state yet, the button adds the course to an array ‘newSelects’ and store the data using ‘setSelects’ function. 
 - “cost” State: This state has been used to store the total costs of the selected courses.
-- ‘hours’ State: This state has been used to store the total hours of the selected course.
-- ‘remaining’ State: This state has been used to store the remaining hours a user has. 
+- “hours” State: This state has been used to store the total hours of the selected course.
+- “remaining” State: This state has been used to store the remaining hours a user has. 
