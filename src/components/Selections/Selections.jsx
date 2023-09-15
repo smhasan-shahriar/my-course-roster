@@ -21,7 +21,10 @@ const Selections = ({selects, cost, hours, remaining}) => {
 };
 
 Selections.propTypes = {
-    selects: PropType.array
+    selects: PropType.array,
+    cost: PropType.number,
+    hours: PropType.number,
+    remaining: PropType.number
 }
 
 export default Selections;

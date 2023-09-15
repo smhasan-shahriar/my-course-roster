@@ -3,6 +3,8 @@ import Header from './components/Header/Header'
 import Courses from './components/Courses/Courses'
 import Selections from './components/Selections/Selections'
 import { useEffect, useState } from 'react';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 function App() {
 
@@ -27,16 +29,16 @@ function App() {
     newSelects.map(course => creditHour += course.credit );
     newSelects.map(select => price += select.price);
     if(newSelects.includes(course)){
-      alert('Same subjects cannot be added twice')
+      toast('Same subjects cannot be added twice')
       return;
     }
     if(creditHour > 20){
-      alert('credit hour exceeded')
+      toast('credit hour exceeded')
     }
     let remainingHour = 20 - course.credit;
     newSelects.map(course => remainingHour -= course.credit);
     if(remainingHour < 0){
-      alert('no remaining hour');
+      toast('not enough remaining credit hour left');
     }
     if(creditHour <=20 && remainingHour >=0 && !newSelects.includes(course)){
       newSelects.push(course);
