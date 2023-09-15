@@ -51,7 +51,7 @@ function App() {
   }
 
   return (
-    <div className='max-w-[1440px] mx-auto'>
+    <div className='max-w-[1360px] mx-auto'>
         <Header></Header>
         <main className='flex flex-col-reverse lg:flex-row justify-between'>
           <Courses courses={courses} handleSelect= {handleSelect}></Courses>
