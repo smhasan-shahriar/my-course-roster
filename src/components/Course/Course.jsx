@@ -20,7 +20,7 @@ const Course = ({course, handleSelect}) => {
             </div>
             <div>
                 <button onClick={()=> handleSelect(course)} className='bg-[#2F80ED] text-white text-lg font-semibold w-[280px] h-[40px] lg:max-xl:w-[22vw] rounded-lg mt-6'>Select</button>
-                <ToastContainer className="mb-5"/>
+                <ToastContainer/>
             </div>
         </div>
     );
