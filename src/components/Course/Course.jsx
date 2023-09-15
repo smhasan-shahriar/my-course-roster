@@ -6,7 +6,7 @@ import 'react-toastify/dist/ReactToastify.css';
 const Course = ({course, handleSelect}) => {
     const {title, description, price, credit, img} = course;
     return (
-        <div className='p-4 bg-white w-[312px] rounded-xl lg:max-xl:w-[24.5vw]'>
+        <div className='p-4 bg-white w-[312px] rounded-xl lg:max-xl:w-[24.2vw]'>
             <img className='mb-4 w-[280px] lg:max-xl:w-[22vw] object-cover' src={img} alt="" />
             <h3 className='text-lg font-semibold mb-3 lg:max-xl:h-[50px]'>{title}</h3>
             <p className='text-sm opacity-60 mb-5  gap-3 lg:max-xl:h-[80px]'>{description}</p>
