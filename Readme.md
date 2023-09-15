@@ -1,10 +1,10 @@
 **Question 1:** Add at least 3 Project features.
 
-**Answer:** The project named 'My Course Roster' gives user flexibility to choose course from a pool of subjects related to software development. The main features of the project are given below.
+**Answer:** The project named 'My Course Roster' gives users flexibility to choose course from a pool of subjects related to software development. The main features of the project are given below.
 
-- The project allows users to choose any courses they want from our pool as long as total credit hour chosen does not exceed 20 hours. 
+- The project allows users to choose any courses they want from the pool as long as total credit hours chosen does not exceed 20 hours. 
 - The project does not allow users to select the same course twice. They will get a notification when they try to choose the same course again. 
-- The project allows users to how many credit hours are left and they will get notification if credit hour of the new course chosen exceeds the remaining credit hours. 
+- The project allows users to see how many credit hours are left and they will get notification if credit hour of the new course chosen exceeds the remaining credit hours. 
 - The project shows the total price of courses selected. Thus, the users will be able to see total cost for their chosen courses. 
 
 **Question 2:** Discuss how you managed the state in your assignment project.
