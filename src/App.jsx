@@ -29,16 +29,16 @@ function App() {
     newSelects.map(course => creditHour += course.credit );
     newSelects.map(select => price += select.price);
     if(newSelects.includes(course)){
-      toast('Same subjects cannot be added twice')
+      toast('Same course cannot be added twice')
       return;
     }
     if(creditHour > 20){
-      toast('credit hour exceeded')
+      toast('Credit hour exceeded')
     }
     let remainingHour = 20 - course.credit;
     newSelects.map(course => remainingHour -= course.credit);
     if(remainingHour < 0){
-      toast('not enough remaining credit hour left');
+      toast('Not enough credit hour left');
     }
     if(creditHour <=20 && remainingHour >=0 && !newSelects.includes(course)){
       newSelects.push(course);
