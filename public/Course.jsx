@@ -12,10 +12,10 @@ const Course = ({course, handleSelect}) => {
             <p className='text-sm opacity-60 mb-5'>{description}</p>
             <div className='flex justify-between'>
                 <div className='flex items-center gap-3'>
-                    <img src="dollar-sign.svg" alt="" /><p className='opacity-60 font-medium'>Price: {price}</p>
+                    <img src="" alt="" /><p className='opacity-60 font-medium'>Price: {price}</p>
                 </div>
                 <div className='flex items-center gap-3'>
-                    <img src="book-frame.png" alt="" /><p className='opacity-60 font-medium'>Credit: {credit}hr</p>
+                    <img src="" alt="" /><p className='opacity-60 font-medium'>Credit: {credit}hr</p>
                 </div>
             </div>
             <div>
