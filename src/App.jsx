@@ -33,7 +33,7 @@ function App() {
       return;
     }
     if(creditHour > 20){
-      toast('Credit hour exceeded')
+      toast('Limit exceeded for total credit hour')
     }
     let remainingHour = 20 - course.credit;
     newSelects.map(course => remainingHour -= course.credit);
