@@ -38,7 +38,7 @@ function App() {
     let remainingHour = 20 - course.credit;
     newSelects.map(course => remainingHour -= course.credit);
     if(remainingHour < 0){
-      toast('Not enough credit hour left');
+      toast('Not enough credit hour left for selecting this course');
     }
     if(creditHour <=20 && remainingHour >=0 && !newSelects.includes(course)){
       newSelects.push(course);
