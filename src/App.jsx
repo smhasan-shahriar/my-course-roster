@@ -29,7 +29,7 @@ function App() {
     newSelects.map(course => creditHour += course.credit );
     newSelects.map(select => price += select.price);
     if(newSelects.includes(course)){
-      toast('Same course cannot be added twice')
+      toast('You have already selected this course')
       return;
     }
     if(creditHour > 20){
